@@ -26,7 +26,7 @@ public class Guessnum {
 		}
 		
 		if (enternum == correct)
-		System.out.println("You got it.");
+		System.out.println("You got it in " + chance + " amount of tries.");
 		else if (chance == 5)
 		System.out.println("Too many tries.");
 
