@@ -15,14 +15,14 @@ public class Guessnum {
 
 		while(enternum != correct && chance < 5 ){
 			if(enternum < 1 || enternum > 10) {
-			System.out.print("Please select a number between 1 and 10: ");
-			enternum = keyboard.nextInt();
-			chance++;
+				System.out.print("Please select a number between 1 and 10: ");
+				enternum = keyboard.nextInt();
+				chance++;
 			}
 
-		System.out.println("Nope. Guess again: ");
-		enternum = keyboard.nextInt();
-		chance++;	
+			System.out.println("Nope. Guess again: ");
+			enternum = keyboard.nextInt();
+			chance++;	
 		}
 		
 		if (enternum == correct)
